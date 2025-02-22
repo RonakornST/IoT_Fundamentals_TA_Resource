@@ -1,5 +1,3 @@
----
-
 # Pushing IoT Device  
 This is a guideline for students enrolled in the **2102541 IoT Fundamental Course** (academic year 2024).  
 
