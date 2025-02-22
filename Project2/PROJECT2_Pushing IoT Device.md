@@ -113,12 +113,10 @@ Before writing the actual Arduino code, we will use **MQTT Explorer** or **POSTM
 6. **Modify the schema in NETPIE to accommodate all sensor data**:
 7. **Verify that sensor data appears correctly in NETPIE’s Shadow values.** 
    
----
 
 ## Submission Guidelines
 - **Demo Video**: Showcase your Cucumber Board successfully publishing data to NETPIE.
 
----
 
 ## References
 - [NETPIE Official Guide](https://netpie.io/guide)
