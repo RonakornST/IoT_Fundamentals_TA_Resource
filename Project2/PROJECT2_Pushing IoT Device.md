@@ -107,14 +107,14 @@ Before writing the actual Arduino code, we will use **MQTT Explorer** or **POSTM
    - Put the data at the back of a FIFO Queue.  
 5. **Create Thread 2: Publish to NETPIE using `pubsubclient`**:
    - Read from the **FIFO queue in thread 1**.
-   - Use the same **Client ID, Username, and Password** of NETPIE’s `Cucumber` device for connection.
    - Publish the sensor data to the MQTT topic **@shadow/data/update** on NETPIE’s `Cucumber` device.
+   - NOTE: Use the same **Client ID, Username, and Password** of NETPIE’s `Cucumber` device for connection.
 6. **Modify the schema in NETPIE to accommodate all sensor data**:
 7. **Verify that sensor data appears correctly in NETPIE’s Shadow values.** 
    
 
 ## Submission Guidelines
-- **Demo Video**: Showcase your Cucumber Board successfully publishing data to NETPIE.
+- **Demo Video**: Record and upload a video to YouTube demonstrating your Cucumber Board successfully collecting sensor data and publishing it to NETPIE in real time.
 
 
 ## References
