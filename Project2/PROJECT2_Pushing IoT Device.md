@@ -97,7 +97,7 @@ Before writing the actual Arduino code, we will use **MQTT Explorer** or **POSTM
    - **HTS221** (or **SHT4x**) for temperature & humidity
    - **BMP280** for air pressure & temperature
    - **MPU6050** for acceleration & angular speed
-2. **Configure your Arduino I2C pin for cucumber board so that cucumber board could interact with on board sensors** `HINT: Try use Wire.h to assign I2C pin number`
+2. **Configure your Arduino I2C pin for cucumber board so that cucumber board could interact with on board sensors** `HINT!: Try use Wire.h to assign I2C pin number`
 3. **Check that your cucumber board has HTS221 or SHT4X** `HINT!: You can use I2C scanner script from internet or example in Arduino IDE`
    - You can use I2C scanner script from internet or example in Arduino IDE, to scan for on board sensors I2C address to determine, which sensor is on your board.
    - HTS221 I2C address is **0x5F** and SHT4x I2C address is **0x44**
