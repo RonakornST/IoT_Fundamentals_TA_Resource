@@ -69,7 +69,7 @@ Before writing the actual Arduino code, we will use **MQTT Explorer** or **POSTM
 2. **Create a new connection** in MQTT Explorer:
    - **Username**: Copy **Token** from `Cucumber` device.
    - **Password**: Copy **Secret** from `Cucumber` device.
-   - **Client ID**: Copy **Client ID** from `Cucumber` device.
+   - **Client ID**: Copy **Client ID** from `Cucumber` device. (You can find client id by clicking Advanced button)
    - **Subscribe to topic**: `@shadow/data/update`
    - Click **SAVE** and **CONNECT**.
 3. **Verify connection**:
